@@ -1,0 +1,110 @@
+.grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -50px;
+}
+
+.grid>.grid-item {
+    padding: 50px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.grid-story {
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.grid-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: -20px;
+}
+
+.grid-brand>.grid-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+
+.grid-3-column {
+    position: relative;
+    margin: 0 -2px -1px 0;
+}
+
+.grid-wrapper {
+    overflow: hidden;
+}
+
+.grid-3-column>.grid-item {
+    padding: 0px;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+    border-right: 1px solid #e0e9f0;
+    border-bottom: 1px solid #e0e9f0;
+}
+
+.grid-footer {
+    margin: -25px;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.grid-footer>.grid-item {
+    padding: 25px;
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+}
+
+.grid-footer>.grid-item:nth-child(3) {
+    -ms-flex-preferred-size: 34%;
+    flex-basis: 34%;
+}
+
+.grid-footer .contacts>.section-description {
+    -ms-flex-preferred-size: 34%;
+    flex-basis: 34%;
+    padding-left: 30px;
+}
+
+.grid-team {
+    margin: -10px;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.grid-team>.grid-item {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.grid-6-column {
+    margin: 54px 0 45px 0;
+}
+
+.grid-6-column>.grid-item {
+    -ms-flex-preferred-size: 16.66%;
+    flex-basis: 16.66%;
+    padding: 0;
+}

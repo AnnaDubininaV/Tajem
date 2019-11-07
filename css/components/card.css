@@ -1,0 +1,45 @@
+.card * {
+    margin: 0;
+}
+
+.card {
+    height: 100%;
+    text-align: center;
+}
+
+.card.no-border {
+    border: none;
+}
+
+.card-title {
+    margin: 25px 0 15px 0;
+}
+
+.card-subtitle {
+    color: #fafafa;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card-expertise {
+    margin: 30px;
+}
+
+.card-team {
+    border: 1px solid #d6d5d5;
+}
+
+.card-team img {
+    height: 229px;
+}
+
+.card-team .card-title {
+    margin: 10px 0 10px 0;
+    height: 14px;
+}
+
+.card-team .card-subtitle {
+    opacity: 0.7;
+    margin-bottom: 25px;
+}

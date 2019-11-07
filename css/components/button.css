@@ -1,0 +1,46 @@
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 16px 0;
+    width: 123px;
+    text-align: center;
+    text-decoration: none;
+    color: #00e0d0;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #00e0d0;
+}
+
+.button:hover {
+    border: 1px solid #00e0d0;
+    background-color: #00e0d0;
+    color: #312855;
+}
+
+.button-block {
+    width: 100%;
+}
+
+.button-subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin: 0 0 0 8px;
+    padding: 0;
+    height: 47px;
+    color: #000;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+}

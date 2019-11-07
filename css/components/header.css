@@ -1,0 +1,12 @@
+  .header .nav {
+      max-width: 55%;
+      min-width: 55%;
+  }
+  
+  .header .nav>.nav-item {
+      margin-right: 20px;
+  }
+  
+  .header .nav>.nav-item:last-child {
+      margin-right: 0;
+  }

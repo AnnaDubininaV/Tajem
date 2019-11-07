@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Tajem';
+    src: url('../../fonts/icons/Tajem.eot?sudbrk');
+    src: url('../../fonts/icons/Tajem.eot?sudbrk#iefix') format('embedded-opentype'), url('../../fonts/icons/Tajem.ttf?sudbrk') format('truetype'), url('../../fonts/icons/Tajem.woff?sudbrk') format('woff'), url('../../fonts/icons/Tajem.svg?sudbrk#Tajem') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Tajem' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.icon-social {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.icon-social:hover {
+    border: 1px solid #00e0d0;
+}
+
+.icon-send:before {
+    font-size: 25px;
+    line-height: 25px;
+    content: "\e900";
+}
+
+.icon-phone:before {
+    content: "\e901";
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    left: -32px;
+}
+
+.icon-location:before {
+    top: 0;
+    left: -32px;
+    content: "\e902";
+    font-size: 19px;
+    position: absolute;
+}
+
+.icon-arrow_right:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 17px;
+    content: "\e903";
+}
+
+.icon-circular:before {
+    content: "\e904";
+}
+
+.icon-games:before {
+    content: "\e905";
+}
+
+.icon-graphical:before {
+    content: "\e906";
+}
+
+.icon-like:before {
+    content: "\e907";
+}
+
+.icon-monitor:before {
+    content: "\e908";
+}
+
+.icon-paintbrush:before {
+    content: "\e909";
+}
+
+.icon-play:before {
+    content: "\e90a";
+    font-size: 55px;
+    margin-left: 10px;
+}
+
+.icon-quotes-left:before {
+    font-size: 50px;
+    content: "\e977";
+}
+
+.icon-google-plus:before {
+    content: "\ea8b";
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-youtube:before {
+    content: "\ea9d";
+}
+
+.icon-dribbble:before {
+    content: "\eaa7";
+}
+
+.icon-card {
+    font-size: 50px;
+    background: -o-linear-gradient(left, #00e0d0 0%, #4aa3cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#00e0d0), to(#4aa3cc));
+    background: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 2px solid transparent;
+}
