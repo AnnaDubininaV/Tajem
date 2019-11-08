@@ -1,27 +1,28 @@
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper-container1', {
     pagination: {
-        el: '.swiper-pagination',
-        clickable: true
+        el: '.swiper-pagination1',
+        clickable: true,
     },
+    loop: true,
 });
 
 var galleryThumbs = new Swiper('.gallery-thumbs', {
-    spaceBetween: 10,
+
+    centeredSlides: true,
     slidesPerView: 5,
-    width: 350,
-    freeMode: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
+    loop: true,
+    loopedSlides: 5,
+    slideToClickedSlide: true,
 });
 
 var galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 10,
-
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    thumbs: {
-        swiper: galleryThumbs
-    }
+    loop: true,
+    loopedSlides: 5,
 });
+galleryTop.controller.control = galleryThumbs;
+galleryThumbs.controller.control = galleryTop;
